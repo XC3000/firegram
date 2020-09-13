@@ -1,6 +1,5 @@
 import { projectStorage, projectFirestore, timestamp } from "../firebase/config";
 import { useState, useEffect } from "react";
-import { storage } from "firebase";
 
 const useStorage = (file) => {
   /* console.log(file); */
